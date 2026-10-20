@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Creovate helps creators and businesses turn raw footage into polished short-form video that drives attention, trust, and sales."
+    />
+    <title>Creovate | Video Editing for Creators & Brands</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="logo" aria-label="Creovate home">
+          <span class="logo-mark">C</span>
+          <span>Creovate</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#packages">Packages</a>
+          <a href="#process">Process</a>
+          <a href="#checklist">Checklist</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="button button-primary nav-cta" href="#contact">Book a call</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Short-form video editing for brands that want momentum</p>
+            <h1>Turn raw footage into scroll-stopping content that builds trust.</h1>
+            <p class="lead">
+              Creovate helps online stores, educational creators, and fitness instructors turn
+              simple footage into polished short videos that feel premium, clear, and conversion-ready.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#packages">See packages</a>
+              <a class="button button-secondary" href="#contact">Request a quote</a>
+            </div>
+
+            <ul class="trust-points" aria-label="Business benefits">
+              <li>Fast turnaround</li>
+              <li>Clear revision limits</li>
+              <li>Built for mobile-first platforms</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Video editing sample stats">
+            <div class="stat-card">
+              <span class="label">Average edit</span>
+              <strong>15–30 sec</strong>
+              <small>Short-form, punchy, audience-ready</small>
+            </div>
+            <div class="stat-card highlight">
+              <span class="label">Best-fit niches</span>
+              <strong>Stores • Creators • Fitness</strong>
+              <small>Focused on growth and conversion</small>
+            </div>
+            <div class="mini-metrics">
+              <div>
+                <span>9:16</span>
+                <small>Phone-first format</small>
+              </div>
+              <div>
+                <span>2 rounds</span>
+                <small>Included revisions</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brands-strip">
+        <div class="container brands-inner">
+          <span>Built for</span>
+          <div class="brand-tags">
+            <span>Online Stores</span>
+            <span>Course Creators</span>
+            <span>Fitness Instructors</span>
+            <span>Coaches</span>
+            <span>Personal Brands</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2>Editing that makes your content look professional and feel clear.</h2>
+          </div>
+
+          <div class="services-grid">
+            <article class="card service-card">
+              <div class="icon">✦</div>
+              <h3>Short-form video edits</h3>
+              <p>
+                Clean storytelling, stronger pacing, and more confident delivery for Reels, Shorts,
+                TikToks, and promo clips.
+              </p>
+            </article>
+            <article class="card service-card">
+              <div class="icon">◎</div>
+              <h3>Creator packaging</h3>
+              <p>
+                Turn raw talking-head footage, product demos, or tutorials into polished videos that hold
+                attention and feel premium.
+              </p>
+            </article>
+            <article class="card service-card">
+              <div class="icon">▣</div>
+              <h3>Brand retention</h3>
+              <p>
+                Keep your visual language consistent with clear cuts, better pacing, subtitles, and simple
+                improvements that increase perceived value.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Simple packages</p>
+            <h2>Choose a starting point that fits your content volume.</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="card price-card">
+              <span class="badge">Starter</span>
+              <h3>1 video</h3>
+              <div class="price">$79</div>
+              <ul>
+                <li>Up to 30 seconds</li>
+                <li>1 revision round</li>
+                <li>Basic captions</li>
+                <li>Mobile-first export</li>
+              </ul>
+              <a class="button button-secondary" href="#contact">Order now</a>
+            </article>
+
+            <article class="card price-card featured">
+              <span class="badge featured-badge">Most popular</span>
+              <h3>Monthly plan</h3>
+              <div class="price">$249</div>
+              <ul>
+                <li>4 videos per month</li>
+                <li>Priority turnaround</li>
+                <li>2 revision rounds</li>
+                <li>Brand-consistent edits</li>
+              </ul>
+              <a class="button button-primary" href="#contact">Book monthly</a>
+            </article>
+
+            <article class="card price-card">
+              <span class="badge">Growth</span>
+              <h3>Custom package</h3>
+              <div class="price">Custom</div>
+              <ul>
+                <li>Bulk editing</li>
+                <li>Series templates</li>
+                <li>Content strategy support</li>
+                <li>Flexible delivery</li>
+              </ul>
+              <a class="button button-secondary" href="#contact">Discuss needs</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">How it works</p>
+            <h2>A simple, clear process from raw footage to finished content.</h2>
+          </div>
+
+          <div class="process-grid">
+            <div class="process-step">
+              <span>01</span>
+              <h3>Send footage</h3>
+              <p>Share your recordings, product shots, or talking-head clips in the format you already have.</p>
+            </div>
+            <div class="process-step">
+              <span>02</span>
+              <h3>Confirm style</h3>
+              <p>Choose pacing, branding, and any specific notes for the edit and revision rounds.</p>
+            </div>
+            <div class="process-step">
+              <span>03</span>
+              <h3>Receive final export</h3>
+              <p>Get a polished short-form video optimized for phone viewing and social distribution.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="checklist" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Launch checklist</p>
+            <h2>Everything you need to make the offer real and start with confidence.</h2>
+          </div>
+
+          <div class="checklist-grid">
+            <div class="checklist-col">
+              <h3>Phase 1 — Make the offer real</h3>
+              <ul class="check-list">
+                <li>Choose the first niche: online stores, educational creators, or fitness instructors.</li>
+                <li>Learn a free editor and create 3 sample edits using your own or licensed footage.</li>
+                <li>Export samples in 9:16 format and review them on a phone.</li>
+                <li>Set realistic turnaround times and a clear revision limit.</li>
+                <li>Replace the placeholder email in <code>script.js</code>.</li>
+                <li>Ask a trusted adult to review account, payment, and client-contract requirements.</li>
+              </ul>
+            </div>
+
+            <div class="checklist-col">
+              <h3>Phase 2 — Test the site</h3>
+              <ul class="check-list">
+                <li>Open the site on desktop and mobile.</li>
+                <li>Click every navigation and package button.</li>
+                <li>Submit the contact form with a test email.</li>
+                <li>Check spelling, pricing, contact info, and service scope.</li>
+                <li>Do not publish testimonials or client logos unless authorized.</li>
+                <li>Confirm the business name isn’t confusingly similar to another brand.</li>
+              </ul>
+            </div>
+
+            <div class="checklist-col">
+              <h3>Phase 3 — Publish</h3>
+              <ul class="check-list">
+                <li>Choose a static hosting provider after checking age/account rules.</li>
+                <li>Upload the HTML, CSS, JS, and assets folder.</li>
+                <li>Open the live URL on a phone and computer.</li>
+                <li>Test the email inquiry on the live site.</li>
+                <li>Keep a copy of the files and the live URL.</li>
+                <li>Only buy a custom domain if necessary.</li>
+              </ul>
+            </div>
+
+            <div class="checklist-col">
+              <h3>Phase 4 — Find first customers</h3>
+              <ul class="check-list">
+                <li>Build a list of 30 suitable creators or small businesses.</li>
+                <li>Review each prospect’s content and identify one respectful improvement idea.</li>
+                <li>Send 5–8 personalized outreach messages per day.</li>
+                <li>Offer a short sample only when you have permission to use their content.</li>
+                <li>Track replies, calls, quotes, paid work, and time spent.</li>
+                <li>Ask for feedback after delivery and get permission before using work in your portfolio.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section schedule">
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="eyebrow">Weekly rhythm</p>
+            <h2>Keep the work sustainable and consistent.</h2>
+          </div>
+
+          <div class="schedule-box">
+            <div class="schedule-item"><span>45 min</span><p>Learning or editing</p></div>
+            <div class="schedule-item"><span>45 min</span><p>Portfolio sample work</p></div>
+            <div class="schedule-item"><span>30 min</span><p>Personalized outreach</p></div>
+            <div class="schedule-item"><span>15 min</span><p>Follow-ups and tracking</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-wrap">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Let’s talk</p>
+            <h2>Need polished video content for your brand?</h2>
+            <p class="lead small">
+              Share your project, audience, and timeline. We’ll reply with a recommended package and a realistic next step.
+            </p>
+            <ul class="contact-points">
+              <li>Email: hello@creovate.co</li>
+              <li>Turnaround: 2–5 days depending on scope</li>
+              <li>Focus: Reels, Shorts, promos, and creator content</li>
+            </ul>
+          </div>
+
+          <form id="contact-form" class="card contact-card">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Project type
+              <select name="projectType">
+                <option value="Online Store">Online Store</option>
+                <option value="Educational Creator">Educational Creator</option>
+                <option value="Fitness Instructor">Fitness Instructor</option>
+                <option value="Custom Project">Custom Project</option>
+              </select>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell me about your goals, platform, and timeline." required></textarea>
+            </label>
+            <button type="submit" class="button button-primary">Send inquiry</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Creovate</p>
+        <p>Short-form video editing for ambitious creators and growing brands.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"},{
